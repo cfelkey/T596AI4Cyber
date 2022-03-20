@@ -5,24 +5,20 @@ Industry Background
 Threat Modeling
 About Us
 
-{% codetabs %}
+<ul class="nav nav-tabs responsive" id="myTab">
+  <li class="active"><a href="#home">Home</a></li>
+  <li><a href="#profile">Profile</a></li>
+  <li><a href="#messages">Messages</a></li>
+</ul>
 
-{% codetab C %}
-```c
-printf("Hello, world!");
-```
-{% endcodetab %}
+<div class="tab-content responsive">
+  <div class="tab-pane active" id="home">...content...</div>
+  <div class="tab-pane" id="profile">...content...</div>
+  <div class="tab-pane" id="messages">...content...</div>
+</div>
 
-{% codetab Go %}
-```go
-fmt.Println("Hello, world!")
-```
-{% endcodetab %}
-
-{% codetab Python %}
-```python
-print("Hello, world!")
-```
-{% endcodetab %}
-
-{% endcodetabs %}
+<script type="text/javascript">
+  (function($) {
+      fakewaffle.responsiveTabs(['xs', 'sm']);
+  })(jQuery);
+</script>
