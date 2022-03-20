@@ -4,8 +4,8 @@ Disclaimer: All content on this site is for educational purposes only
 
 
 <ul class="nav nav-tabs responsive" id="myTab">
-  <li class="active"><a href="#home">Industry Background</a></li>
-  <li><a href="#profile">Profile</a></li>
+  <li class="active"><a href="#IndustryBackground">Industry Background</a></li>
+  <li><a href="#ThreatModeling">Threat Modeling</a></li>
   <li><a href="#messages">Messages</a></li>
 </ul>
 
