@@ -9,9 +9,9 @@ Disclaimer: All content on this site is for educational purposes only
 </ul>
 
 <div class="tab-content responsive">
-  <div class="tab-pane active" id="Industry Background">...content...</div>
-  <div class="tab-pane" id="Threat Modeling">...content...</div>
-  <div class="tab-pane" id="About Us">...content...</div>
+  <div class="tab-pane active" id="Industry Background">...Industry Background...</div>
+  <div class="tab-pane" id="Threat Modeling">...Threat Modeling...</div>
+  <div class="tab-pane" id="About Us">...About Us...</div>
 </div>
 
 <script type="text/javascript">
