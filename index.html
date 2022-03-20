@@ -52,63 +52,6 @@
         <div class="tab-pane" id="nr-tab3">Messages 2 Content ... Duis viverra egestas ante, vel blandit elit dictum eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus fermentum dui at viverra pulvinar. Donec eu ipsum ut tellus convallis posuere. Sed tempor turpis laoreet dignissim mattis.</div>
       </div>
 
-      <!-- ====================================== documentation ====================================== -->
-      <div class="page-header">
-        <h2>Documentation</h2>
-      </div>
-
-      <h3>How to use</h3>
-        <h4>Steps</h4>
-          <ol>
-            <li>Include bootstrap css and js.</li>
-            <li>Include responsive-tabs.js.</li>
-            <li>Setup tabs per the bootstrap <a href="//getbootstrap.com/javascript/#tabs">documents</a>.</li>
-            <li>Add a <code>responsive</code> class to the <code>ul</code> that is used to create the tabs.</li>
-            <li>Add a <code>responsive</code> class to the <code>div</code> that is used to create the tab-content.</li>
-            <li>Call <code>fakewaffle.responsiveTabs(['xs', 'sm']);</code> in your load up script, while passing an array of bootstrap sizes that you want the to be displayed as accordions, e.g. ['xs', 'sm'] which is used by default.</li>
-          </ol>
-          <h5>Example Markup</h5>
-          <div class="alert alert-info">
-            <strong>Note:</strong> The only difference from the standard bootstrap tab markup to the responsive markup is the addition of the <em class="text-danger">responsive</em>, and calling the <code>fakewaffle.responsiveTabs();</code> function.
-          </div>
-          <pre>
-&lt;ul class="nav nav-tabs <span class="text-danger">responsive</span>" id="myTab"&gt;
-  &lt;li class="active"&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#profile"&gt;Profile&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#messages"&gt;Messages&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class="tab-content <span class="text-danger">responsive</span>"&gt;
-  &lt;div class="tab-pane active" id="home"&gt;...content...&lt;/div&gt;
-  &lt;div class="tab-pane" id="profile"&gt;...content...&lt;/div&gt;
-  &lt;div class="tab-pane" id="messages"&gt;...content...&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;script type="text/javascript"&gt;
-  (function($) {
-      fakewaffle.responsiveTabs(['xs', 'sm']);
-  })(jQuery);
-&lt;/script&gt;</pre>
-
-        <h4>Key Features</h4>
-          <ul>
-            <li>Uses standard bootstrap tab markup</li>
-            <li>Accordion is created with jquery</li>
-            <li>Tabs and Accordion are the fully accessible via keyboard</li>
-            <li>Supports multiple tabs on a page, with or without being responsive</li>
-          </ul>
-
-        <h4>Additional Items</h4>
-          <ul>
-              <li>Make the entire panel heading clickable, see <a href="https://github.com/openam/bootstrap-responsive-tabs/issues/5">Issue #5</a>.</li>
-          </ul>
-
-        <h4>Source</h4>
-          <p>You may download the source code from <a href="https://github.com/openam/bootstrap-responsive-tabs/archive/master.zip">github</a>.</p>
-          <h5>Reporting issues</h5>
-          <p>If you have any issues with this please report in on <a href="https://github.com/openam/bootstrap-responsive-tabs/issues">github</a>.</p>
-          <h5>Contributing</h5>
-          <p>If you'd like to contribute to this project, you can fork the project send a pull request.</p>
 
     </div> <!-- /container -->
 
