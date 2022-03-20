@@ -1,9 +1,7 @@
 # T596AI4Cyber
 Disclaimer: All content on this site is for educational purposes only
 
-Industry Background
-Threat Modeling
-About Us
+
 
 <ul class="nav nav-tabs responsive" id="myTab">
   <li class="active"><a href="#home">Home</a></li>
@@ -12,9 +10,9 @@ About Us
 </ul>
 
 <div class="tab-content responsive">
-  <div class="tab-pane active" id="home">...content...</div>
-  <div class="tab-pane" id="profile">...content...</div>
-  <div class="tab-pane" id="messages">...content...</div>
+  <div class="tab-pane active" id="Industry Background">...content...</div>
+  <div class="tab-pane" id="Threat Modeling">...content...</div>
+  <div class="tab-pane" id="About Us">...content...</div>
 </div>
 
 <script type="text/javascript">
