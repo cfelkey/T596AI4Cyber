@@ -5,7 +5,7 @@ Disclaimer: All content on this site is for educational purposes only
 
 {% codetab C %}
 ```c
-printf("Hello, world!");
+printf("Hello, World!");
 ```
 {% endcodetab %}
 
