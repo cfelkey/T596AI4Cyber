@@ -14,22 +14,24 @@ Disclaimer: All content on this site is for educational purposes only
   <div class="tab-pane" id="About Us">...About Us...</div>
 </div>
 
-<script type="text/javascript">
-  (function($) {
-      fakewaffle.responsiveTabs(['xs', 'sm']);
-  })(jQuery);
-</script>
 
-<h3>Standard Tabs (Non-Responsive)</h3>
 
-      <ul class="nav nav-tabs" id="nonResponsiveTabs">
-        <li class="active"><a href="#nr-tab1">Markup</a></li>
-        <li><a href="#nr-tab2">Profile2</a></li>
-        <li><a href="#nr-tab3">Messages2</a></li>
-      </ul>
+<div>
 
-      <div class="tab-content">
-        <div class="tab-pane active" id="nr-tab1">Markup Content ... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet fermentum risus sed ullamcorper. Nulla condimentum sagittis quam. Duis viverra egestas ante, vel blandit elit dictum eu. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
-        <div class="tab-pane" id="nr-tab2">Profile 2 Content ... Ut laoreet fermentum risus sed ullamcorper. Nulla condimentum sagittis quam. Duis viverra egestas ante, vel blandit elit dictum eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus fermentum dui at viverra pulvinar.</div>
-        <div class="tab-pane" id="nr-tab3">Messages 2 Content ... Duis viverra egestas ante, vel blandit elit dictum eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus fermentum dui at viverra pulvinar. Donec eu ipsum ut tellus convallis posuere. Sed tempor turpis laoreet dignissim mattis.</div>
-      </div>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+  </div>
+
+</div>
