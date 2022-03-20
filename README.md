@@ -4,7 +4,7 @@ Disclaimer: All content on this site is for educational purposes only
 
 
 <ul class="nav nav-tabs responsive" id="myTab">
-  <li class="active"><a href="#home">Home</a></li>
+  <li class="active"><a href="#home">Industry Background</a></li>
   <li><a href="#profile">Profile</a></li>
   <li><a href="#messages">Messages</a></li>
 </ul>
