@@ -453,6 +453,8 @@
             <p><strong>How will we use Phishtank data?</strong></p>
             <p>Phish data can be cross referenced to CVE data to understand any impacts to known vulnerabilities.</p>
             <p>It can also help in mining email data to detect possible known phish schemes circulating within our organization.</p>
+            <p><strong>Collection Strategy​</strong></p>
+            <p>Full data set was downloaded from the phishtank website as a CSV file. Data will be consumed in a MySQL database to use in analytics with our other data sources.</p>
         </div>
         <div class="tab-pane" id="datatab2">
           <br>
@@ -467,6 +469,8 @@
                <p><strong>How will we use CVE data?</strong></p>
               <p>CVE data by itself can help prioritize activities within our organizations patching program</p>
               <p>CVE data may also be helpful to understand linkages between vulnerabilities and phishing or ransomware attacks we are or may face.</p>
+              <p><strong>Collection Strategy​</strong></p>
+              <p>Full data set was downloaded from the CVE website. Data will be consumed in a MySQL database to use in analytics with our other data sources.</p>
         </div>
         <div class="tab-pane" id="datatab3">
           <br>
@@ -483,7 +487,10 @@
           <p>Any domain with risk score more than 95%​.</p>
           <p><strong>How will we use Domain Tools data?​</strong></p>
           <p>Retrieve the new discovered domain globally the match out risk score then sends notifications of newly-discovered domains matching the monitored keywords via API and email.</p>
-        </div>
+          <p><strong>Collection Strategy​</strong></p>
+          <p>A python Script will be written to extract the daily information updates from the Domain tools threat list (csv) and filter only the new records (based on the create date and risk score). ​</p>
+          <p>&middot;Data is stored in a MySQL database in AWS</p>
+          </div>
         </div>
         
         </div>
